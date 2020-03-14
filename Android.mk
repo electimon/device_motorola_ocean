@@ -25,6 +25,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter river, $(TARGET_DEVICE)),)
+ifneq ($(filter ocean, $(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

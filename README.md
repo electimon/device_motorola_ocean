@@ -1,5 +1,5 @@
 
-Device configuration for Motorola g7 (river)
+Device configuration for Motorola G7 Power (ocean)
 ==================================
 
 Basic   | Spec Sheet
@@ -7,14 +7,14 @@ Basic   | Spec Sheet
 CPU     | Octa-core 1.8 GHz Cortex-A53
 CHIPSET | Qualcomm SDM632 Snapdragon 632
 GPU     | Adreno 506
-Memory  | 4GB
+Memory  | 3GB/4GB
 Shipped Android Version | 9.0 (Pie)
-Internal Storage | 64GB
+Internal Storage | 32GB/64GB
 microSD | Up to 1 TB (dedicated slot)
-Battery | 3000 mAh
-Dimensions | 157 x 75.3 x 8 mm
-Display | 2270 x 1080 pixels, 6.2-inch IPS LCD
-Rear Camera  | 12 MP (f/1.8, 1.25µm, PDAF)
+Battery | 5000 mAh
+Dimensions | 160.83 x 76 x 9.4 mm
+Display | 1520 x 720 pixels, 6.2-inch IPS LCD
+Rear Camera  | 12 MP (f/2.0, 1.25µm, PDAF)
 Front Camera | 8 MP 1.12µm, HDR
 
-![Motorola g7](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-1.jpg "Motorola g7")
+![Motorola G7 Power](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-power.jpg "Motorola G7 Power")
