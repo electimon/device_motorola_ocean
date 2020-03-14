@@ -1,1 +1,76 @@
-#TODO
+# Audio ACDB
+vendor/etc/acdbdata/common/Bluetooth_cal.acdb
+vendor/etc/acdbdata/common/General_cal.acdb
+vendor/etc/acdbdata/common/Global_cal.acdb
+vendor/etc/acdbdata/common/Handset_cal.acdb
+vendor/etc/acdbdata/common/Hdmi_cal.acdb
+vendor/etc/acdbdata/common/Headset_cal.acdb
+vendor/etc/acdbdata/common/Speaker_cal.acdb
+vendor/etc/acdbdata/na/Bluetooth_cal.acdb
+vendor/etc/acdbdata/na/General_cal.acdb
+vendor/etc/acdbdata/na/Global_cal.acdb
+vendor/etc/acdbdata/na/Handset_cal.acdb
+vendor/etc/acdbdata/na/Hdmi_cal.acdb
+vendor/etc/acdbdata/na/Headset_cal.acdb
+vendor/etc/acdbdata/na/Speaker_cal.acdb
+
+# Display calib
+vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_ofilm_720p_622.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_622.xml
+
+# Display Panel Firmwares
+vendor/firmware/focaltech-ofilm-ft8006u-0e-001-ocean.bin
+vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
+vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
+
+# DTV
+#etc/permissions/com.motorola.hardware.dtv.xml
+#etc/permissions/unavail.com.motorola.hardware.dtv.xml
+#etc/permissions/mot_dtv_permissions.xml
+#etc/motorola/sysconfig/dtv-hidepackages.xml
+#lib/motorola.hardware.tv@1.0.so
+#lib/vndk-28/android.hardware.tv.cec@1.0.so
+#lib/vndk-28/android.hardware.tv.input@1.0.so
+#lib/libdtvtuner.so
+#lib/android.hardware.tv.cec@1.0.so
+#lib/android.hardware.tv.input@1.0.so
+#lib64/motorola.hardware.tv@1.0.so
+#lib64/vndk-28/android.hardware.tv.cec@1.0.so
+#lib64/vndk-28/android.hardware.tv.input@1.0.so
+#lib64/libdtvtuner.so
+#lib64/android.hardware.tv.cec@1.0.so
+#lib64/android.hardware.tv.input@1.0.so
+#vendor/lib/hw/motorola.hardware.tv@1.0-impl.so
+#vendor/lib/motorola.hardware.tv@1.0.so
+#vendor/bin/hw/motorola.hardware.tv@1.0-service
+#vendor/etc/init/motorola.hardware.tv@1.0-service.rc
+#vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so
+#vendor/lib64/motorola.hardware.tv@1.0.so
+
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/permissions/android.hardware.fingerprint.xml
+vendor/framework/com.fingerprints.extension.jar
+vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+-lib/vendor.qti.hardware.fingerprint@1.0.so
+-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+
+# FocalTech Touch Firmware
+vendor/firmware/FT8006U_Pramboot.bin
+
+# Proximity Sensor Firmware
+vendor/firmware/AbovCapSense.BIN
+
+# Sound Firmware (TFA987X)
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/mono.cnt
+
+# Vibrator Firmwares
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin
+vendor/firmware/aw8624_rtp_lighthouse.bin
+vendor/firmware/aw8624_rtp_silk.bin
