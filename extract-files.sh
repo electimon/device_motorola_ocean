@@ -31,3 +31,8 @@ export VENDOR=motorola
 export DEVICE_BRINGUP_YEAR=2019
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
+for i in $(grep -rn 'libhidltransport.so\|libhwbinder.so' ../../../vendor/motorola/ocean/proprietary | awk '{print $3}'); do
+        patchelf --remove-needed "libhwbinder.so" "$i"
+        patchelf --remove-needed "libhidltransport.so" "$i"
+done
