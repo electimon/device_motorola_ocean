@@ -22,11 +22,20 @@ $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+# Kernel
+LOCAL_KERNEL := device/motorola/ocean-kernel/Image.gz-dtb
+LOCAL_DTB := device/motorola/ocean-kernel/dtb.img
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel \
+    $(LOCAL_DTB):dtb.img
+
+# Kernel Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/motorola/ocean-kernel/msm8953/kernel-headers
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ocean.mk
+    $(LOCAL_DIR)/hentai_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ocean-eng \
-    lineage_ocean-user \
-    lineage_ocean-userdebug
+    hentai_ocean-eng \
+    hentai_ocean-user \
+    hentai_ocean-userdebug

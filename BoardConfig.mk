@@ -27,6 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := ocean
 
 # Kernel
 TARGET_KERNEL_CONFIG := ocean_defconfig
+BOARD_PREBUILT_DTBOIMAGE := device/motorola/ginna-kernel/dtbo.img
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432        #    32768 * 1024 mmcblk0p41-42
